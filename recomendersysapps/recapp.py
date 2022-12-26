@@ -26,7 +26,7 @@ movies=pd.DataFrame(movies_dict)
 
 similarity=pickle.load(open('similarity.pkl','rb'))
 
-st.title("Movie recommender System")
+st.title("WAY2WATCH")
 
 selected_movie = st.selectbox('Enter the name', movies['title'].values)
 
